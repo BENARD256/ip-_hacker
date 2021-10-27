@@ -1,13 +1,5 @@
 #!/bin/bash
-
-echo -e "\e[33m Updating Repositories "
-sleep 5	
-apt update -y && apt upgrade -y
-
-echo -e "\e[33m Installing curl "
-sleep 4
-apt install curl - && pkg intall curl -y
-
+echo -e "\e[32m Starting ...."
 clear
 sleep 2
 ./banner.sh
